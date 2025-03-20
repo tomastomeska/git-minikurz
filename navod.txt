@@ -32,3 +32,20 @@ D- deleted - soubor je v historii, ale VSC si ho už smazal
 // příprava souboru pro zapsání do historie/repozitáře
 //musíme soubor nejprve dostat do fáze stage
 # git add navod.txt
+
+//nyni je soubor ve stagovací fazi a je pripraveny pro commitnuti
+//nez udelate svuj prvni commit, je potreba si nastavit jemno a e-mail
+//klidne si muzete tyto dve veci vymyslet, nikde se to neoveruje
+//nastaveni techto dvou informaci se dela pomoci prikazu
+# git config --global user.name "Tomas"
+# git config --global user.email "tomas.tomeska@seznam.cz"
+
+//nyní provedeme commit 
+//pro jistotu se jen podivame, ktere soubory se budpou commitovat
+# git status
+//provedeme commit
+//kazdy commit musi mit "message", ktery rika co ten commit provede
+# git commit -m "prida do historie navod.txt"
+
+//nyni si ukazeme praci s grafickym nastrojem
+//vytvorime navic index.html
