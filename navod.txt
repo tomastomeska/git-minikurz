@@ -1,0 +1,34 @@
+GIT je verzovací systém
+systém si dokáže udržet historii vývoje vašeho projektu
+
+//odkaz ke stazeni GITu
+https://git-scm.com/downloads
+
+Pri instalaci zmente tyto 3 veci
+1) misto vetve "master" jsme vybrali "main"
+2) hlavni editor je Visual Studio Code, (ten co neni insider)
+3) Credential: None
+
+//GIT stejne jako composer nemá grafické rozhraní, musí se používat pomocí příkazů
+//existuje ale spousta neoficiálních grafických rozhraní
+
+//zahájíme verzování naší složky Git-minikurz
+//otevřeme ve složce git-minikurz terminal a spustíme tento příkaz:
+# git init
+
+//VS má vlastní grafické rozhraní
+//založka se jmenuje source control (ctrl+shift+G)
+
+//příkaz git init vytvořil neviditelnou složku, která se jmenuje .git 
+//v této složce je uložena celá historie vašeho projektu, nikdy ji bez rozmyslu nemazat.
+
+//po inicializaci gitu se složka rozsvítila zeleně
+//vedle souborů a složek se najednou objevila nějaká písmenka, tyto písmenka říkají, v jakém stavu se soubor zrovna nachází
+U - untracked - soubor ještě není v historii, není ani ve stagovací fázi
+A - added - soubor ještě není v historii, ale už je ve stagovací fázi
+M - modified - soubor je v historii, ale není schodná s aktuální verzí
+D- deleted - soubor je v historii, ale VSC si ho už smazal
+
+// příprava souboru pro zapsání do historie/repozitáře
+//musíme soubor nejprve dostat do fáze stage
+# git add navod.txt
