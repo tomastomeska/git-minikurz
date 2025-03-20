@@ -33,6 +33,7 @@ D- deleted - soubor je v historii, ale VSC si ho už smazal
 //musíme soubor nejprve dostat do fáze stage
 # git add navod.txt
 
+
 //nyni je soubor ve stagovací fazi a je pripraveny pro commitnuti
 //nez udelate svuj prvni commit, je potreba si nastavit jemno a e-mail
 //klidne si muzete tyto dve veci vymyslet, nikde se to neoveruje
@@ -49,3 +50,18 @@ D- deleted - soubor je v historii, ale VSC si ho už smazal
 
 //nyni si ukazeme praci s grafickym nastrojem
 //vytvorime navic index.html
+
+//Github
+- sluzba, kam si muzu uploadovat svuj repozitar, muzete pak projekt sdilet s ostatnima lidma. Ostatni programatori mohou primoprospivat kody, nebo navrhnout zmeny kodu
+//centralni uloziste pro vas projekt, vsichni co na projektu pracuji, musi mit svuj repozitar sesynchronizovany s Githubem
+//Git Hub navic hlida situace, kdy dva programatori upravuji stejny soubor - konflikt
+
+//VYTVORTE SI UCET NA GITHUBU
+https://github.com/
+//nejprve se ujistit, ze nejste prihlaseni za jineho uzivatele na VS 
+
+pro uload na GitHub klikni na mracek vlevo dole
+
+//pozor, nektere veci na Github nepatri, napr. hesla a jine citlive informace, vendor, cashe atd.
+// tyto soubory a slozky je potera pre gitem schovat
+//vytvorime soubor ".gitignore"
